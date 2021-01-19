@@ -1,0 +1,45 @@
+body{
+    background-color: blueviolet;
+}
+.colonna-destra{
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 50% 0%;
+    width: 40%;
+    float: right;
+    background-color: white;
+}
+
+.colonna-sinistra{
+     margin: 0% 0% 0% 0%;
+    padding: 0% 0% 50% 0%;
+    width: 40%;
+    float: right;
+    width: 60%;
+    float: left;
+    background-color: white;
+}
+
+li{
+    float: left;
+}
+ 
+nav{
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.footer{
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: center;
+}
+
