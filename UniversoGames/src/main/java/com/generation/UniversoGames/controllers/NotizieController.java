@@ -24,4 +24,8 @@ public class NotizieController {
 	public Notizia get(@PathVariable int id) {
 		return dao.notizia(id);
 	}
+	@PostMapping
+	public void post(@RequestBody Notizia notizia) {
+		dao.addNotizia(notizia);
+	}
 }
